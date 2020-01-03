@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--underwayCircleColor:当前step左边的圆圈的颜色-->
+    <!--underwayStringColor:当前step左边的文字的颜色-->
+    <!--startedLineColor:当前step左边的直线的颜色-->
+    <!--preCircleColor:当前step右边圆圈的颜色-->
+    <!--preLineColor:当前step右边直线的颜色-->
+    <!--preStringColor:当前step右边文字的颜色-->
+    <com.example.timeline2.TimeLineView
+        android:id="@+id/timeLineView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        app:textSize="12sp" />
+
+
+</LinearLayout>
